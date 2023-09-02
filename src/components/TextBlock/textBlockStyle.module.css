@@ -1,0 +1,28 @@
+.textBlock {
+    color: white;
+    font-family: 'Arial'; 
+    animation: slideInFromRight 1.5s ease-in-out;
+  }
+  
+  @keyframes slideInFromRight {
+    0% {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+
+.hand {
+    width: 30px;
+    height: 30px;
+}
+  
+.container {
+
+    max-width: 60%;
+
+}
