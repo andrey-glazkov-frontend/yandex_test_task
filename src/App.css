@@ -24,6 +24,10 @@
   color: white;
 }
 
+a {
+  text-decoration: none;
+}
+
 .App-link {
   color: #61dafb;
 }
@@ -34,5 +38,17 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+
+@media (max-width: 768px) {
+  .App {
+    font-size: 14px;
+    max-width: 90%;
+  }
+
+  html, body {
+    overflow-x: hidden;
   }
 }

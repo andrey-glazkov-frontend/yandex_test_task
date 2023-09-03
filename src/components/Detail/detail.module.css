@@ -55,3 +55,29 @@
 }
 
 
+@media (max-width: 768px) {
+  .image_container {
+    margin: auto; 
+  }
+
+  .detail_container {
+    width: 75%;
+    margin: 20px auto;
+    margin-top: 0px;
+ 
+  }
+}
+
+@media (max-width: 480px) {
+  .image_container {
+    margin: auto;
+  }
+
+  .detail_container {
+    width: 75%;
+    margin: 20px auto; 
+    margin-top: 0px;
+
+  }
+
+}

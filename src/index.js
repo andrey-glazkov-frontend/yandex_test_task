@@ -4,6 +4,8 @@ import './index.css'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import App from './App'
 import { MainPage } from './pages/MainPage/MainPage'
+import { SecondPage } from './pages/SecondPage/SecondPage'
+import { Feature } from './pages/Feature/Feature'
 
 const router = createBrowserRouter([
   {
@@ -14,7 +16,11 @@ const router = createBrowserRouter([
 
       {
         path: 'secondTask',
-        // element:
+        element: <SecondPage />,
+      },
+      {
+        path: 'feature',
+        element: <Feature />,
       },
     ],
   },

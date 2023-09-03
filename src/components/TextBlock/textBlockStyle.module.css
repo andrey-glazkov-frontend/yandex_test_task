@@ -22,7 +22,19 @@
 }
   
 .container {
+  max-width: 50%;
+  margin-right: 10%;
+}
 
-    max-width: 60%;
 
+@media (max-width: 768px) {
+  .container {
+    margin: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    margin: auto;
+  }
 }

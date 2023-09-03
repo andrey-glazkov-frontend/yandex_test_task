@@ -71,6 +71,11 @@
     background-color: #090909;
 }
 
+.active_link {
+    background-color: #090909;
+
+}
+
 .nav span:nth-child(2) {
     transform: translateY(-8px);
 }
@@ -85,3 +90,23 @@
 .nav input:checked ~ span:nth-child(3) {
     transform: translateY(0) rotate(45deg);
 }
+
+
+@media (max-width: 768px) {
+    .container {
+   
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .nav {
+      
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .menu li a {
+   
+        font-size: 10px;
+      }
+  }

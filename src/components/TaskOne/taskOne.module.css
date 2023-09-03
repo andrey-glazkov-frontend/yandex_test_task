@@ -1,0 +1,28 @@
+.name {
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.video_responsive {
+    margin: auto;
+
+}
+
+@media (max-width: 768px) {
+    .video_responsive {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+
+  @media (max-width: 480px) {
+    .video_responsive {
+      width: 100%;
+      height: auto;
+    }
+  }
